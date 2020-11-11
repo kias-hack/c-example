@@ -11,6 +11,8 @@
 #define DEFAULT_FRAMEBUFFER "/dev/fb0"
 #define DEFAULT_TTY_DEV "/dev/tty"
 
+//https://github.com/BartekLew/fblib/blob/fb-example/fbgrad.c
+
 int framebuffersize = 0, 
     fbfd = 0, ttyfd = 0;
 struct fb_fix_screeninfo fixinfo;
